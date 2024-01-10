@@ -1,1 +1,16 @@
-
+body {
+    background-image: url("pictures/jason-hogan-YyFwUKzv5FM-unsplash\ \(1\).jpg");
+    
+}
+.mainTitle {
+font-size: 50px;
+padding-top: 160px;
+}
+.remove {
+    margin-left: auto;
+}
+#add-to-list {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 15px;
+}

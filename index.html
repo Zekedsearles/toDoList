@@ -11,15 +11,39 @@
       </head>
       <body>
         <div class="container">
+            <div class="text-center my-4">
+                <h1 class="mainTitle">To Do List</h1>
+                <h4 class="SubTitle">!Lets get this done!</h4>
+            </div>
             <div class="row">
                 <div class="col-12">
-                    <h1 class="mainTitle text-center my-4">To Do List</h1>
-                    
-                </div>
-                <div class="col-12">
-                    <h4 class="SubTitle text-center my-2">!Lets get this done!</h4>
+                    <div class="list-group">
+                        <label class="list-group-item d-flex">
+                            <input class="form-check-input me-1" type="checkbox">
+                            <p>Clean bathroom</p>
+                            <button class="btn btn-light btn-sm remove">Remove</button>
+                        </label>
+                    </div>
+                    <div class="list-group">
+                        <label class="list-group-item d-flex">
+                            <input class="form-check-input me-1" type="checkbox">
+                            <p>Take out the trash</p>
+                            <button class="btn btn-light btn-sm remove">Remove</button>
+                        </label>
+                    </div>
+                    <div class="list-group">
+                        <label class="list-group-item d-flex">
+                            <input class="form-check-input me-1" type="checkbox">
+                            <p>Do the laundry</p>
+                            <button class="btn btn-light btn-sm remove">Remove</button>
+                        </label>
+                    </div>
                 </div>
             </div>
+            <form class="col-12 d-flex" id="add-to-list">
+                <input name="to-do" type="text" placeholder="To-Do" required>
+                <button class="btn btn-light btn-sm submit mx-2">Submit</button>
+            </form>
         </div>
       </body>
 </html>
