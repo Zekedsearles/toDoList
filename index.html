@@ -1,49 +1,24 @@
+<!--index.html-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>To Do List</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="script.js"></script>
-      </head>
-      <body>
-        <div class="container">
-            <div class="text-center my-4">
-                <h1 class="mainTitle">To Do List</h1>
-                <h4 class="SubTitle">!Lets get this done!</h4>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="list-group">
-                        <label class="list-group-item d-flex">
-                            <input class="form-check-input me-1" type="checkbox">
-                            <p>Clean bathroom</p>
-                            <button class="btn btn-light btn-sm remove">Remove</button>
-                        </label>
-                    </div>
-                    <div class="list-group">
-                        <label class="list-group-item d-flex">
-                            <input class="form-check-input me-1" type="checkbox">
-                            <p>Take out the trash</p>
-                            <button class="btn btn-light btn-sm remove">Remove</button>
-                        </label>
-                    </div>
-                    <div class="list-group">
-                        <label class="list-group-item d-flex">
-                            <input class="form-check-input me-1" type="checkbox">
-                            <p>Do the laundry</p>
-                            <button class="btn btn-light btn-sm remove">Remove</button>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <form class="col-12 d-flex" id="add-to-list">
-                <input name="to-do" type="text" placeholder="To-Do" required>
-                <button class="btn btn-light btn-sm submit mx-2">Submit</button>
-            </form>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>To Do List</h2>
+          <div id='todo-list'>
         </div>
-      </body>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
